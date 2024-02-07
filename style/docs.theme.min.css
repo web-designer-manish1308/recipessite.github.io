@@ -1,0 +1,122 @@
+
+
+9172
+
+  table.show-for-landscape,
+
+9173
+
+  table.hide-for-portrait {
+
+9174
+
+    display:table !important
+
+9175
+
+  }
+
+9176
+
+  thead.show-for-landscape,
+
+9177
+
+  thead.hide-for-portrait {
+
+9178
+
+    display:table-header-group !important
+
+9179
+
+  }
+
+9180
+
+  tbody.show-for-landscape,
+
+9181
+
+  tbody.hide-for-portrait {
+
+9182
+
+    display:table-row-group !important
+
+9183
+
+  }
+
+9184
+
+  tr.show-for-landscape,
+
+9185
+
+  tr.hide-for-portrait {
+
+9186
+
+    display:table-row !important
+
+9187
+
+  }
+
+9188
+
+  td.show-for-landscape,
+
+9189
+
+  td.hide-for-portrait,
+
+9190
+
+  th.show-for-landscape,
+
+9191
+
+  th.hide-for-portrait {
+
+9192
+
+    display:table-cell !important
+
+9193
+
+  }
+
+9194
+
+}
+
+9195
+
+@media only screen and (orientation: portrait) {
+
+9196
+
+  .show-for-portrait,
+
+9197
+
+  .hide-for-landscape {
+
+9198
+
+    display:inherit !important
+
+9199
+
+  }
+
+9200
+
+  .hide-for-portrait,
+
+9201
+
+  .show-for-landscape {
+
